@@ -7,3 +7,5 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/htc816g/proprie
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/htc816g/proprietary/xbin,system/xbin)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/htc816g/proprietary/vendor,system/vendor)
+
+include sense_apps/common.mk
